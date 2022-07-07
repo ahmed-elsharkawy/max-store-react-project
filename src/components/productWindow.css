@@ -1,0 +1,9 @@
+.product-window .img{
+    height: 200px;
+    overflow: auto;
+}
+
+.product-window{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+}

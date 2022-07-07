@@ -1,0 +1,18 @@
+.head {
+  background-image: url("https://cutewallpaper.org/22/general-store-wallpapers/1061817962.jpg");
+  height: 100vh;
+  background-size: 100% 100%;
+}
+.layer {
+  background-color: rgba(0, 0, 0, 0.85);
+}
+.head h1{
+    font-size: 80px;
+    line-height: 130px;
+}
+@media screen and (max-width: 600px) {
+    .head h1{
+        font-size: 40px;
+        line-height: 100px;
+    }   
+}

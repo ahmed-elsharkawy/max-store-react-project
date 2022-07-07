@@ -1,0 +1,19 @@
+.notFound {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) rotateZ(20deg);
+  font-size: 200px;
+  font-weight: 800;
+}
+.notFound::after {
+  display: block;
+  content: "Sorry, but the page you were trying to view does not exist.";
+  font-size: 20px;
+}
+.go-home{
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, -50%);
+}
